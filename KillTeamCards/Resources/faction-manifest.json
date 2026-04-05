@@ -6,17 +6,72 @@
       "pdfFile": "murderwing.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Murderwing Chaos Lord", "pages": [2] },
-        { "name": "Murderwing Champion", "pages": [2] },
-        { "name": "Murderwing Curseclaw", "pages": [2] },
-        { "name": "Murderwing Depredator", "pages": [2] },
-        { "name": "Murderwing Huntmaster", "pages": [1] },
-        { "name": "Murderwing Raptor", "pages": [1] },
-        { "name": "Murderwing Possessed", "pages": [1] },
-        { "name": "Murderwing Raptor", "pages": [1] },
-        { "name": "Murderwing Shrieker", "pages": [2] },
-        { "name": "Murderwing Skysear", "pages": [1] },
-        { "name": "Murderwing Warp Talon", "pages": [1] }
+        {
+          "name": "Murderwing Chaos Lord",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Murderwing Champion",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Murderwing Curseclaw",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Murderwing Depredator",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Murderwing Huntmaster",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Murderwing Raptor",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Murderwing Possessed",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Murderwing Raptor",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Murderwing Shrieker",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Murderwing Skysear",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Murderwing Warp Talon",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -25,14 +80,54 @@
       "pdfFile": "wolf-scouts.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Wolf Scout Pack Leader", "pages": [1] },
-        { "name": "Wolf Scout Fangbearer", "pages": [1] },
-        { "name": "Wolf Scout Frosteye", "pages": [2] },
-        { "name": "Wolf Scout Gunner", "pages": [1] },
-        { "name": "Wolf Scout Hunter", "pages": [1] },
-        { "name": "Wolf Scout Rune Priest Skjald", "pages": [2] },
-        { "name": "Wolf Scout Trapmaster", "pages": [2] },
-        { "name": "Wolf Scout Fenrisian Wolf", "pages": [1] }
+        {
+          "name": "Wolf Scout Pack Leader",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Wolf Scout Fangbearer",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Wolf Scout Frosteye",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Wolf Scout Gunner",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Wolf Scout Hunter",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Wolf Scout Rune Priest Skjald",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Wolf Scout Trapmaster",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Wolf Scout Fenrisian Wolf",
+          "pages": [
+            3
+          ]
+        }
       ]
     },
     {
@@ -41,13 +136,48 @@
       "pdfFile": "battleclade.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Battleclade Technoarcheologist", "pages": [1] },
-        { "name": "Battleclade Auto-Proxy Servitor", "pages": [1] },
-        { "name": "Battleclade Breacher Servitor", "pages": [1] },
-        { "name": "Battleclade Combat Servitor", "pages": [1] },
-        { "name": "Battleclade Gun Servitor", "pages": [1] },
-        { "name": "Battleclade Servitor Underseer", "pages": [2] },
-        { "name": "Battleclade Technomendic Servitor", "pages": [2] }
+        {
+          "name": "Battleclade Technoarcheologist",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Battleclade Auto-Proxy Servitor",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Battleclade Breacher Servitor",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Battleclade Combat Servitor",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Battleclade Gun Servitor",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Battleclade Servitor Underseer",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Battleclade Technomendic Servitor",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -56,13 +186,49 @@
       "pdfFile": "plague-marines.pdf",
       "type": "Legacy",
       "operatives": [
-        { "name": "Plague Marine Champion", "pages": [1] },
-        { "name": "Plague Marine Bombardier", "pages": [2] },
-        { "name": "Plague Marine Fighter", "pages": [3] },
-        { "name": "Plague Marine Heavy Gunner", "pages": [4] },
-        { "name": "Plague Marine Icon Bearer", "pages": [5] },
-        { "name": "Malignant Plaguecaster", "pages": [6] },
-        { "name": "Plague Marine Warrior", "pages": [7] }
+        {
+          "name": "Plague Marine Champion",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Plague Marine Bombardier",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Plague Marine Fighter",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Plague Marine Heavy Gunner",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Plague Marine Icon Bearer",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Malignant Plaguecaster",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Plague Marine Warrior",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -71,8 +237,19 @@
       "pdfFile": "hierotek-circle.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Deathmark", "pages": [1] },
-        { "name": "Immortal Guardian", "pages": [2] }
+        {
+          "name": "Deathmark",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Immortal Guardian",
+          "pages": [
+            5
+          ]
+        }
       ]
     },
     {
@@ -81,17 +258,72 @@
       "pdfFile": "sanctifiers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Sanctifier Confessor", "pages": [1] },
-        { "name": "Sanctifier Cherub", "pages": [1] },
-        { "name": "Sanctifier Conflagrator", "pages": [1] },
-        { "name": "Sanctifier Cult Assassin", "pages": [1] },
-        { "name": "Sanctifier Drill Abbot", "pages": [1] },
-        { "name": "Sanctifier Persecutor", "pages": [1] },
-        { "name": "Sanctifier Miraculist", "pages": [1] },
-        { "name": "Sanctifier Missionary", "pages": [1] },
-        { "name": "Sanctifier Preacher", "pages": [1] },
-        { "name": "Sanctifier Reliquant", "pages": [1] },
-        { "name": "Sanctifier Salvationist", "pages": [1] }
+        {
+          "name": "Sanctifier Confessor",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Sanctifier Cherub",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Sanctifier Conflagrator",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Sanctifier Cult Assassin",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Sanctifier Drill Abbot",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Sanctifier Persecutor",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Sanctifier Miraculist",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Sanctifier Missionary",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Sanctifier Preacher",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Sanctifier Reliquant",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Sanctifier Salvationist",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -100,8 +332,18 @@
       "pdfFile": "inquisitorial-agents.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Inquisitor", "pages": [1] },
-        { "name": "Agent", "pages": [2] }
+        {
+          "name": "Inquisitor",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Agent",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -110,8 +352,18 @@
       "pdfFile": "brood-brothers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Magus", "pages": [1] },
-        { "name": "Brood Brother", "pages": [2] }
+        {
+          "name": "Magus",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Brood Brother",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -120,14 +372,57 @@
       "pdfFile": "xv26-stealth-battlesuits.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Shas'Vre", "pages": [1] },
-        { "name": "Designator", "pages": [1] },
-        { "name": "Infiltrator", "pages": [1] },
-        { "name": "Liberator", "pages": [1] },
-        { "name": "Lodestar", "pages": [1] },
-        { "name": "Neutraliser", "pages": [1] },
-        { "name": "MV15 Gun Drone", "pages": [1] },
-        { "name": "MV76 Marker Drone", "pages": [1] }
+        {
+          "name": "Shas'Vre",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Designator",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Infiltrator",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Liberator",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Lodestar",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Neutraliser",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "MV15 Gun Drone",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "MV76 Marker Drone",
+          "pages": [
+            1
+          ]
+        }
       ]
     },
     {
@@ -136,11 +431,38 @@
       "pdfFile": "canoptek-circle.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Geomancer", "pages": [1] },
-        { "name": "Canoptek Macrocyte Accelerator", "pages": [1] },
-        { "name": "Canoptek Macrocyte Reanimator", "pages": [1] },
-        { "name": "Canoptek Macrocyte Warrior", "pages": [1] },
-        { "name": "Canoptek Tomb Crawler", "pages": [1] }
+        {
+          "name": "Geomancer",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Canoptek Macrocyte Accelerator",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Canoptek Macrocyte Reanimator",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Canoptek Macrocyte Warrior",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Canoptek Tomb Crawler",
+          "pages": [
+            3
+          ]
+        }
       ]
     },
     {
@@ -149,8 +471,18 @@
       "pdfFile": "nemesis-claw.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Night Lord Chosen", "pages": [1] },
-        { "name": "Night Lord Gunner", "pages": [2] }
+        {
+          "name": "Night Lord Chosen",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Night Lord Gunner",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -159,18 +491,78 @@
       "pdfFile": "exaction-squad.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Arbites Proctor-Exactant", "pages": [1] },
-        { "name": "Arbites Castigator", "pages": [1] },
-        { "name": "Arbites Chirurgant", "pages": [1] },
-        { "name": "Arbites Gunner", "pages": [1] },
-        { "name": "Arbites Leashmaster", "pages": [1] },
-        { "name": "R-VR Cyber-Mastiff", "pages": [1] },
-        { "name": "Arbites Malocator", "pages": [1] },
-        { "name": "Arbites Marksman", "pages": [1] },
-        { "name": "Arbites Revelatum", "pages": [1] },
-        { "name": "Arbites Subductor", "pages": [1] },
-        { "name": "Arbites Vigilant", "pages": [1] },
-        { "name": "Arbites Vox-Signifier", "pages": [1] }
+        {
+          "name": "Arbites Proctor-Exactant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Arbites Castigator",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Arbites Chirurgant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Arbites Gunner",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Arbites Leashmaster",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "R-VR Cyber-Mastiff",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Arbites Malocator",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Arbites Marksman",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Arbites Revelatum",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Arbites Subductor",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Arbites Vigilant",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Arbites Vox-Signifier",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -179,10 +571,31 @@
       "pdfFile": "pathfinders.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Shas'ui Pathfinder", "pages": [1] },
-        { "name": "Pathfinder Weapons Expert", "pages": [2] },
-        { "name": "MB3 Recon Drone", "pages": [3] },
-        { "name": "Pulse Accelerator Drone", "pages": [4] }
+        {
+          "name": "Shas'ui Pathfinder",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Pathfinder Weapons Expert",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "MB3 Recon Drone",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Pulse Accelerator Drone",
+          "pages": [
+            5,
+            6
+          ]
+        }
       ]
     },
     {
@@ -191,8 +604,18 @@
       "pdfFile": "hearthkyn-salvagers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Hearthkyn Theyn", "pages": [1] },
-        { "name": "Hearthkyn Warrior", "pages": [2] }
+        {
+          "name": "Hearthkyn Theyn",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Hearthkyn Warrior",
+          "pages": [
+            5
+          ]
+        }
       ]
     },
     {
@@ -201,17 +624,72 @@
       "pdfFile": "imperial-navy-breachers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Navis Sergeant-At-Arms", "pages": [1] },
-        { "name": "Navis Armsman", "pages": [1] },
-        { "name": "Navis Axejack", "pages": [1] },
-        { "name": "Navis C.A.T. Unit", "pages": [1] },
-        { "name": "Navis Endurant", "pages": [1] },
-        { "name": "Navis Gheistskull", "pages": [1] },
-        { "name": "Navis Grenadier", "pages": [1] },
-        { "name": "Navis Gunner", "pages": [1] },
-        { "name": "Navis Hatchcutter", "pages": [1] },
-        { "name": "Navis Surveyor", "pages": [1] },
-        { "name": "Navis Void-Jammer", "pages": [1] }
+        {
+          "name": "Navis Sergeant-At-Arms",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Navis Armsman",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Navis Axejack",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Navis C.A.T. Unit",
+          "pages": [
+            12
+          ]
+        },
+        {
+          "name": "Navis Endurant",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Navis Gheistskull",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Navis Grenadier",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Navis Gunner",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Navis Hatchcutter",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Navis Surveyor",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Navis Void-Jammer",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -220,12 +698,42 @@
       "pdfFile": "mandrakes.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Mandrake Nightfiend", "pages": [1] },
-        { "name": "Mandrake Chooser Of The Flesh", "pages": [1] },
-        { "name": "Mandrake Abyssal", "pages": [1] },
-        { "name": "Mandrake Dirgemaw", "pages": [1] },
-        { "name": "Mandrake Shadeweaver", "pages": [1] },
-        { "name": "Mandrake Warrior", "pages": [1] }
+        {
+          "name": "Mandrake Nightfiend",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Mandrake Chooser Of The Flesh",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Mandrake Abyssal",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Mandrake Dirgemaw",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Mandrake Shadeweaver",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Mandrake Warrior",
+          "pages": [
+            3
+          ]
+        }
       ]
     },
     {
@@ -234,12 +742,42 @@
       "pdfFile": "death-korps.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Veteran Sergeant", "pages": [1] },
-        { "name": "Veteran Trooper", "pages": [2] },
-        { "name": "Veteran Gunner", "pages": [3] },
-        { "name": "Veteran Weapons Team", "pages": [4] },
-        { "name": "Veteran Medic", "pages": [5] },
-        { "name": "Veteran Comms", "pages": [6] }
+        {
+          "name": "Veteran Sergeant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Veteran Trooper",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Veteran Gunner",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Veteran Weapons Team",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Veteran Medic",
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Veteran Comms",
+          "pages": [
+            6
+          ]
+        }
       ]
     },
     {
@@ -248,8 +786,18 @@
       "pdfFile": "farstalker-kinband.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Kroot Kill-broker", "pages": [1] },
-        { "name": "Kroot Warrior", "pages": [2] }
+        {
+          "name": "Kroot Kill-broker",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kroot Warrior",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -258,8 +806,18 @@
       "pdfFile": "hunter-clade.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Skitarii Vanguard Alpha", "pages": [1] },
-        { "name": "Skitarii Ranger Alpha", "pages": [2] }
+        {
+          "name": "Skitarii Vanguard Alpha",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Skitarii Ranger Alpha",
+          "pages": [
+            1
+          ]
+        }
       ]
     },
     {
@@ -268,7 +826,12 @@
       "pdfFile": "deathwatch.pdf",
       "type": "Legacy",
       "operatives": [
-        { "name": "Deathwatch Veteran", "pages": [1] }
+        {
+          "name": "Deathwatch Veteran",
+          "pages": [
+            1
+          ]
+        }
       ]
     },
     {
@@ -277,14 +840,57 @@
       "pdfFile": "celestian-insidiants.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Superior", "pages": [1] },
-        { "name": "Abjuror", "pages": [1] },
-        { "name": "Censor", "pages": [1] },
-        { "name": "Cremator", "pages": [1] },
-        { "name": "Denuncia", "pages": [1] },
-        { "name": "Mortisanctus", "pages": [1] },
-        { "name": "Reliquarius", "pages": [1] },
-        { "name": "Warrior", "pages": [1] }
+        {
+          "name": "Superior",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Abjuror",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Censor",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Cremator",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Denuncia",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Mortisanctus",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Reliquarius",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Warrior",
+          "pages": [
+            3,
+            4
+          ]
+        }
       ]
     },
     {
@@ -293,8 +899,18 @@
       "pdfFile": "scout-squad.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Scout Sergeant", "pages": [1] },
-        { "name": "Scout Warrior", "pages": [2] }
+        {
+          "name": "Scout Sergeant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Scout Warrior",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -303,8 +919,18 @@
       "pdfFile": "kasrkin.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Kasrkin Sergeant", "pages": [1] },
-        { "name": "Kasrkin Gunner", "pages": [2] }
+        {
+          "name": "Kasrkin Sergeant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kasrkin Gunner",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -313,8 +939,21 @@
       "pdfFile": "warpcoven.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Sorcerer", "pages": [1] },
-        { "name": "Rubric Marine", "pages": [2] }
+        {
+          "name": "Sorcerer",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Rubric Marine",
+          "pages": [
+            2,
+            3
+          ]
+        }
       ]
     },
     {
@@ -323,8 +962,18 @@
       "pdfFile": "corsair-voidscarred.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Corsair Felarch", "pages": [1] },
-        { "name": "Corsair Warrior", "pages": [2] }
+        {
+          "name": "Corsair Felarch",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Corsair Warrior",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -333,13 +982,52 @@
       "pdfFile": "elucidian-starstriders.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Elucia Vhane", "pages": [1] },
-        { "name": "Canid", "pages": [1] },
-        { "name": "Death Cult Executioner", "pages": [1] },
-        { "name": "Lectro-Maester", "pages": [1] },
-        { "name": "Rejuvenat Adept", "pages": [1] },
-        { "name": "Voidmaster", "pages": [1] },
-        { "name": "Voidsman", "pages": [1] }
+        {
+          "name": "Elucia Vhane",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Canid",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Death Cult Executioner",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Lectro-Maester",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Rejuvenat Adept",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Voidmaster",
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Voidsman",
+          "pages": [
+            3,
+            4
+          ]
+        }
       ]
     },
     {
@@ -348,15 +1036,63 @@
       "pdfFile": "angels-of-death.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Space Marine Captain", "pages": [1] },
-        { "name": "Assault Intercessor Sergeant", "pages": [2, 3] },
-        { "name": "Intercessor Sergeant", "pages": [4, 5] },
-        { "name": "Assault Intercessor Grenadier", "pages": [6] },
-        { "name": "Assault Intercessor Warrior", "pages": [7] },
-        { "name": "Heavy Intercessor Gunner", "pages": [8] },
-        { "name": "Intercessor Gunner", "pages": [9] },
-        { "name": "Intercessor Warrior", "pages": [10] },
-        { "name": "Eliminator Sniper", "pages": [11, 12] }
+        {
+          "name": "Space Marine Captain",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Assault Intercessor Sergeant",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Intercessor Sergeant",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Assault Intercessor Grenadier",
+          "pages": [
+            6
+          ]
+        },
+        {
+          "name": "Assault Intercessor Warrior",
+          "pages": [
+            7
+          ]
+        },
+        {
+          "name": "Heavy Intercessor Gunner",
+          "pages": [
+            8
+          ]
+        },
+        {
+          "name": "Intercessor Gunner",
+          "pages": [
+            8
+          ]
+        },
+        {
+          "name": "Intercessor Warrior",
+          "pages": [
+            7
+          ]
+        },
+        {
+          "name": "Eliminator Sniper",
+          "pages": [
+            11,
+            12
+          ]
+        }
       ]
     },
     {
@@ -365,19 +1101,86 @@
       "pdfFile": "ratlings.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Ratling Fixer", "pages": [1] },
-        { "name": "Ratling Big Shot", "pages": [1] },
-        { "name": "Ratling Hardbit", "pages": [1] },
-        { "name": "Ratling Spotter", "pages": [1] },
-        { "name": "Ratling Bomber", "pages": [1] },
-        { "name": "Ratling Stashmaster", "pages": [1] },
-        { "name": "Ratling Raider", "pages": [1] },
-        { "name": "Ratling Sniper", "pages": [1] },
-        { "name": "Ratling Vox-Thief", "pages": [1] },
-        { "name": "Ratling Sneak", "pages": [1] },
-        { "name": "Ogryn", "pages": [1] },
-        { "name": "Bullgryn", "pages": [1] },
-        { "name": "Ratling Battlemutt", "pages": [1] }
+        {
+          "name": "Ratling Fixer",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Ratling Big Shot",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Ratling Hardbit",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Ratling Spotter",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Ratling Bomber",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Ratling Stashmaster",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Ratling Raider",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Ratling Sniper",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Ratling Vox-Thief",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Ratling Sneak",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Ogryn",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Bullgryn",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Ratling Battlemutt",
+          "pages": [
+            1
+          ]
+        }
       ]
     },
     {
@@ -386,15 +1189,61 @@
       "pdfFile": "hand-of-the-archon.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Kabalite Archsybarite", "pages": [1] },
-        { "name": "Kabalite Agent", "pages": [1] },
-        { "name": "Kabalite Crimson Duellist", "pages": [1] },
-        { "name": "Kabalite Disciple Of Yaelindra", "pages": [1] },
-        { "name": "Kabalite Elixicant", "pages": [1] },
-        { "name": "Kabalite Flayer", "pages": [1] },
-        { "name": "Kabalite Gunner", "pages": [1] },
-        { "name": "Kabalite Heavy Gunner", "pages": [1] },
-        { "name": "Kabalite Skysplinter Assassin", "pages": [1] }
+        {
+          "name": "Kabalite Archsybarite",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kabalite Agent",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kabalite Crimson Duellist",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kabalite Disciple Of Yaelindra",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Kabalite Elixicant",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Kabalite Flayer",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Kabalite Gunner",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Kabalite Heavy Gunner",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Kabalite Skysplinter Assassin",
+          "pages": [
+            3,
+            4
+          ]
+        }
       ]
     },
     {
@@ -403,8 +1252,18 @@
       "pdfFile": "vespid-stingwings.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Vespid Strain Leader", "pages": [1] },
-        { "name": "Vespid Warrior", "pages": [2] }
+        {
+          "name": "Vespid Strain Leader",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Vespid Warrior",
+          "pages": [
+            3
+          ]
+        }
       ]
     },
     {
@@ -413,12 +1272,45 @@
       "pdfFile": "blades-of-khaine.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Dire Avenger Exarch", "pages": [1] },
-        { "name": "Howling Banshee Exarch", "pages": [1] },
-        { "name": "Striking Scorpion Exarch", "pages": [1] },
-        { "name": "Dire Avenger Warrior", "pages": [1] },
-        { "name": "Howling Banshee Warrior", "pages": [1] },
-        { "name": "Striking Scorpion Warrior", "pages": [1] }
+        {
+          "name": "Dire Avenger Exarch",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Howling Banshee Exarch",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Striking Scorpion Exarch",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Dire Avenger Warrior",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Howling Banshee Warrior",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Striking Scorpion Warrior",
+          "pages": [
+            2,
+            3
+          ]
+        }
       ]
     },
     {
@@ -427,8 +1319,18 @@
       "pdfFile": "phobos-strike-team.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Phobos Sergeant", "pages": [1] },
-        { "name": "Phobos Warrior", "pages": [2] }
+        {
+          "name": "Phobos Sergeant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Phobos Warrior",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -437,18 +1339,78 @@
       "pdfFile": "novitiates.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Novitiate Superior", "pages": [1] },
-        { "name": "Novitiate Condemnor", "pages": [1] },
-        { "name": "Novitiate Dialogus", "pages": [1] },
-        { "name": "Novitiate Duellist", "pages": [1] },
-        { "name": "Novitiate Exactor", "pages": [1] },
-        { "name": "Novitiate Hospitaller", "pages": [1] },
-        { "name": "Novitiate Militant", "pages": [1] },
-        { "name": "Novitiate Penitent", "pages": [1] },
-        { "name": "Novitiate Preceptor", "pages": [1] },
-        { "name": "Novitiate Pronatus", "pages": [1] },
-        { "name": "Novitiate Purgatus", "pages": [1] },
-        { "name": "Novitiate Reliquarius", "pages": [1] }
+        {
+          "name": "Novitiate Superior",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Novitiate Condemnor",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Novitiate Dialogus",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Novitiate Duellist",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Novitiate Exactor",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Novitiate Hospitaller",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Novitiate Militant",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Novitiate Penitent",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Novitiate Preceptor",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Novitiate Pronatus",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Novitiate Purgatus",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Novitiate Reliquarius",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -457,13 +1419,51 @@
       "pdfFile": "wrecka-krew.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Wrecka Boss Nob", "pages": [1] },
-        { "name": "Breaka Boy Fighter", "pages": [1] },
-        { "name": "Breaka Boy Demolisha", "pages": [1] },
-        { "name": "Breaka Boy Krusha", "pages": [1] },
-        { "name": "Tankbusta Gunner", "pages": [1] },
-        { "name": "Tankbusta Rokkiteer", "pages": [1] },
-        { "name": "Wrecka Bomb Squig", "pages": [1] }
+        {
+          "name": "Wrecka Boss Nob",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Breaka Boy Fighter",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Breaka Boy Demolisha",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Breaka Boy Krusha",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Tankbusta Gunner",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Tankbusta Rokkiteer",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Wrecka Bomb Squig",
+          "pages": [
+            1
+          ]
+        }
       ]
     },
     {
@@ -472,15 +1472,63 @@
       "pdfFile": "wyrmblade.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Neophyte Leader", "pages": [1] },
-        { "name": "Kelermorph", "pages": [1] },
-        { "name": "Locus", "pages": [1] },
-        { "name": "Neophyte Gunner", "pages": [1] },
-        { "name": "Neophyte Heavy Gunner", "pages": [1] },
-        { "name": "Neophyte Icon Bearer", "pages": [1] },
-        { "name": "Sanctus Sniper", "pages": [1] },
-        { "name": "Sanctus Talon", "pages": [1] },
-        { "name": "Neophyte Warrior", "pages": [1] }
+        {
+          "name": "Neophyte Leader",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kelermorph",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Locus",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Neophyte Gunner",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Neophyte Heavy Gunner",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Neophyte Icon Bearer",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Sanctus Sniper",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Sanctus Talon",
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Neophyte Warrior",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -489,10 +1537,33 @@
       "pdfFile": "void-dancer-troupe.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Lead Player", "pages": [1] },
-        { "name": "Death Jester", "pages": [1] },
-        { "name": "Player", "pages": [1] },
-        { "name": "Shadowseer", "pages": [1] }
+        {
+          "name": "Lead Player",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Death Jester",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Player",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Shadowseer",
+          "pages": [
+            2,
+            3
+          ]
+        }
       ]
     },
     {
@@ -501,15 +1572,63 @@
       "pdfFile": "gellerpox-infected.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Vulgrar Thrice-Cursed", "pages": [1] },
-        { "name": "Bloatspawn", "pages": [1] },
-        { "name": "Fleshscreamer", "pages": [1] },
-        { "name": "Lumberghast", "pages": [1] },
-        { "name": "Gellerpox Mutant", "pages": [1] },
-        { "name": "Glitchling", "pages": [1] },
-        { "name": "Cursemite", "pages": [1] },
-        { "name": "Eyestinger Swarm", "pages": [1] },
-        { "name": "Sludge-Grub", "pages": [1] }
+        {
+          "name": "Vulgrar Thrice-Cursed",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Bloatspawn",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Fleshscreamer",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Lumberghast",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Gellerpox Mutant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Glitchling",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Cursemite",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Eyestinger Swarm",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Sludge-Grub",
+          "pages": [
+            3,
+            4
+          ]
+        }
       ]
     },
     {
@@ -518,14 +1637,54 @@
       "pdfFile": "hernkyn-yaegirs.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Yeagir Theyn", "pages": [1] },
-        { "name": "Yaegir Bladekyn", "pages": [1] },
-        { "name": "Yaegir Bombast", "pages": [1] },
-        { "name": "Yaegir Gunner", "pages": [1] },
-        { "name": "Yaegir Ironbraek", "pages": [1] },
-        { "name": "Yeaegir Riflekyn", "pages": [1] },
-        { "name": "Yaegir Tracker", "pages": [1] },
-        { "name": "Yaegir Warrior", "pages": [1] }
+        {
+          "name": "Yeagir Theyn",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Yaegir Bladekyn",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Yaegir Bombast",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Yaegir Gunner",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Yaegir Ironbraek",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Yeaegir Riflekyn",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Yaegir Tracker",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Yaegir Warrior",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -534,8 +1693,18 @@
       "pdfFile": "legionaries.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Legionary Chosen", "pages": [1] },
-        { "name": "Legionary Warrior", "pages": [2] }
+        {
+          "name": "Legionary Chosen",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Legionary Warrior",
+          "pages": [
+            3
+          ]
+        }
       ]
     },
     {
@@ -544,13 +1713,50 @@
       "pdfFile": "chaos-cult.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Cult Demagogue", "pages": [1] },
-        { "name": "Blessed Blade", "pages": [1] },
-        { "name": "Iconarch", "pages": [1] },
-        { "name": "Mindwitch", "pages": [1] },
-        { "name": "Chaos Devotee", "pages": [1] },
-        { "name": "Chaos Mutant", "pages": [1] },
-        { "name": "Chaos Torment", "pages": [1] }
+        {
+          "name": "Cult Demagogue",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Blessed Blade",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Iconarch",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Mindwitch",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Chaos Devotee",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Chaos Mutant",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Chaos Torment",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -559,12 +1765,42 @@
       "pdfFile": "raveners.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Ravener Prime", "pages": [1] },
-        { "name": "Ravener Felltalon", "pages": [1] },
-        { "name": "Ravener Tremorscythe", "pages": [1] },
-        { "name": "Ravener Venomspitter", "pages": [1] },
-        { "name": "Ravener Warrior", "pages": [1] },
-        { "name": "Ravener Wrecker", "pages": [1] }
+        {
+          "name": "Ravener Prime",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Ravener Felltalon",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Ravener Tremorscythe",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Ravener Venomspitter",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Ravener Warrior",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Ravener Wrecker",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -573,19 +1809,84 @@
       "pdfFile": "blooded.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Traitor Chieftain", "pages": [1] },
-        { "name": "Traitor Brimstone Grenadier", "pages": [1] },
-        { "name": "Traitor Butcher", "pages": [1] },
-        { "name": "Traitor Commsman", "pages": [1] },
-        { "name": "Traitor Corpseman", "pages": [1] },
-        { "name": "Traitor Enforcer", "pages": [1] },
-        { "name": "Traitor Flenser", "pages": [1] },
-        { "name": "Traitor Gunner", "pages": [1] },
-        { "name": "Traitor Ogryn", "pages": [1] },
-        { "name": "Traitor Sharpshooter", "pages": [1] },
-        { "name": "Traitor Thug", "pages": [1] },
-        { "name": "Traitor Trench Sweeper", "pages": [1] },
-        { "name": "Traitor Trooper", "pages": [1] }
+        {
+          "name": "Traitor Chieftain",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Traitor Brimstone Grenadier",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Traitor Butcher",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Traitor Commsman",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Traitor Corpseman",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Traitor Enforcer",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Traitor Flenser",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Traitor Gunner",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Traitor Ogryn",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Traitor Sharpshooter",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Traitor Thug",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Traitor Trench Sweeper",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Traitor Trooper",
+          "pages": [
+            4
+          ]
+        }
       ]
     },
     {
@@ -594,12 +1895,42 @@
       "pdfFile": "kommandos.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Kommando Nob", "pages": [1] },
-        { "name": "Kommando Boy", "pages": [2] },
-        { "name": "Kommando Grot", "pages": [3] },
-        { "name": "Kommando Slasha Boy", "pages": [4] },
-        { "name": "Kommando Snipa Boy", "pages": [5] },
-        { "name": "Kommando Dakka Boy", "pages": [6] }
+        {
+          "name": "Kommando Nob",
+          "pages": [
+            11
+          ]
+        },
+        {
+          "name": "Kommando Boy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Kommando Grot",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Kommando Slasha Boy",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Kommando Snipa Boy",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Kommando Dakka Boy",
+          "pages": [
+            2
+          ]
+        }
       ]
     },
     {
@@ -608,17 +1939,73 @@
       "pdfFile": "fellgor-ravagers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Fellgor Ironhorn", "pages": [1] },
-        { "name": "Fellgor Deathknell", "pages": [1] },
-        { "name": "Fellgor Fluxbray", "pages": [1] },
-        { "name": "Fellgor Gnarlscar", "pages": [1] },
-        { "name": "Fellgor Gorehorn", "pages": [1] },
-        { "name": "Fellgor Herd-Goad", "pages": [1] },
-        { "name": "Fellgor Mangler", "pages": [1] },
-        { "name": "Fellgor Shaman", "pages": [1] },
-        { "name": "Fellgor Toxhorn", "pages": [1] },
-        { "name": "Fellgor Vandal", "pages": [1] },
-        { "name": "Fellgor Warrior", "pages": [1] }
+        {
+          "name": "Fellgor Ironhorn",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Fellgor Deathknell",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Fellgor Fluxbray",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Fellgor Gnarlscar",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Fellgor Gorehorn",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Fellgor Herd-Goad",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Fellgor Mangler",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Fellgor Shaman",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Fellgor Toxhorn",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Fellgor Vandal",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Fellgor Warrior",
+          "pages": [
+            3
+          ]
+        }
       ]
     },
     {
@@ -627,7 +2014,13 @@
       "pdfFile": "tempestus-aquilons.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Aquilon Operative", "pages": [1] }
+        {
+          "name": "Aquilon Operative",
+          "pages": [
+            10,
+            11
+          ]
+        }
       ]
     },
     {
@@ -636,13 +2029,48 @@
       "pdfFile": "goremongers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Goremonger Blood Herald", "pages": [1] },
-        { "name": "Goremonger Aspirant", "pages": [1] },
-        { "name": "Goremonger Bloodtaker", "pages": [1] },
-        { "name": "Goremonger Impaler", "pages": [1] },
-        { "name": "Goremonger Inciter", "pages": [1] },
-        { "name": "Goremonger Skullclaimer", "pages": [1] },
-        { "name": "Goremonger Stalker", "pages": [1] }
+        {
+          "name": "Goremonger Blood Herald",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Goremonger Aspirant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Goremonger Bloodtaker",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Goremonger Impaler",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Goremonger Inciter",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Goremonger Skullclaimer",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Goremonger Stalker",
+          "pages": [
+            2
+          ]
+        }
       ]
     }
   ]
