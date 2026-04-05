@@ -9,27 +9,27 @@ struct OperativeSelectionView: View {
     }
 
     var body: some View {
-        ZStack {
-            Color.black.ignoresSafeArea()
-
-            VStack(spacing: 0) {
-                operativeList
-
+        // safeAreaInset pins the button to the bottom and shrinks the list's
+        // safe area so every row is reachable by scrolling — fixes the VStack
+        // layout bug where List stops scrolling before the last rows.
+        operativeList
+            .background(Color.black.ignoresSafeArea())
+            .safeAreaInset(edge: .bottom) {
                 battleModeButton
                     .padding(16)
+                    .background(Color.black)
             }
-        }
-        .navigationTitle(viewModel.faction.name)
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbarColorScheme(.dark, for: .navigationBar)
-        .toolbarBackground(Color.black, for: .navigationBar)
-        .toolbarBackground(.visible, for: .navigationBar)
-        .fullScreenCover(isPresented: $showBattleMode) {
-            BattleModeView(session: SelectedSession(
-                faction: viewModel.faction,
-                selectedPages: viewModel.selectedPages
-            ))
-        }
+            .navigationTitle(viewModel.faction.name)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(Color.black, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .fullScreenCover(isPresented: $showBattleMode) {
+                BattleModeView(session: SelectedSession(
+                    faction: viewModel.faction,
+                    selectedPages: viewModel.selectedPages
+                ))
+            }
     }
 
     private var operativeList: some View {
@@ -61,6 +61,11 @@ struct OperativeSelectionView: View {
 
     private var battleModeButton: some View {
         Button {
+            // Pre-warm: load the PDF into cache now so BattleModeView's
+            // resolvePages() hits the cache instantly after the cover presents.
+            let pdfFile = viewModel.faction.pdfFile
+            let firstPage = viewModel.selectedPages.first ?? 1
+            _ = PDFPageProvider.shared.page(from: pdfFile, pageNumber: firstPage)
             showBattleMode = true
         } label: {
             Text("Battle Mode")

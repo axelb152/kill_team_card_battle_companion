@@ -1,10 +1,22 @@
 import PDFKit
+import UIKit
 
 class PDFPageProvider {
     static let shared = PDFPageProvider()
 
     private var cache: [String: PDFDocument] = [:]
     private let cacheLimit = 3
+
+    private init() {
+        NotificationCenter.default.addObserver(
+            forName: UIApplication.didReceiveMemoryWarningNotification,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            print("⚠️ Memory warning — clearing PDF cache")
+            self?.cache.removeAll()
+        }
+    }
 
     /// Returns the PDFPage for a 1-based page number from the named PDF file.
     func page(from pdfFile: String, pageNumber: Int) -> PDFPage? {
