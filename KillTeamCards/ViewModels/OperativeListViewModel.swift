@@ -7,6 +7,7 @@ class OperativeListViewModel: ObservableObject {
 
     init(faction: Faction) {
         self.faction = faction
+        print("👥 Faction selected: \(faction.name) — \(faction.operatives.count) operatives")
     }
 
     var hasSelection: Bool {
@@ -24,8 +25,10 @@ class OperativeListViewModel: ObservableObject {
     func toggle(_ operative: Operative) {
         if selectedIds.contains(operative.id) {
             selectedIds.remove(operative.id)
+            print("☑️ Deselected: \(operative.name) — \(selectedIds.count) selected")
         } else {
             selectedIds.insert(operative.id)
+            print("☑️ Selected: \(operative.name) — \(selectedIds.count) selected, pages: \(selectedPages)")
         }
     }
 }

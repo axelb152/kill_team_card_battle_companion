@@ -33,14 +33,17 @@ struct BattleModeView: View {
         .onTapGesture {
             viewModel.resetTimer()
         }
-        .onChange(of: viewModel.currentIndex) { _ in
+        .onChange(of: viewModel.currentIndex) { newIndex in
+            print("📄 Card \(newIndex + 1)/\(pages.count)")
             viewModel.resetTimer()
         }
         .onAppear {
+            print("⚔️ Battle Mode opened — \(session.faction.name), \(pages.count) card(s), pages: \(session.selectedPages)")
             OrientationHelper.lock(.landscape)
             viewModel.resetTimer()
         }
         .onDisappear {
+            print("🚪 Battle Mode closed")
             OrientationHelper.lock(.portrait)
             viewModel.cancelTimer()
         }
@@ -121,7 +124,10 @@ struct BattleModeView: View {
                 .foregroundColor(.white.opacity(0.6))
                 .padding(.top, 8)
         }
-        .onAppear { OrientationHelper.lock(.landscape) }
+        .onAppear {
+            print("⚔️ Battle Mode (no PDF) — \(session.faction.pdfFile) not found in bundle")
+            OrientationHelper.lock(.landscape)
+        }
         .onDisappear { OrientationHelper.lock(.portrait) }
     }
 }

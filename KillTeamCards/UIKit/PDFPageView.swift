@@ -19,9 +19,12 @@ struct PDFPageView: UIViewRepresentable {
         // document must be set before go(to:) — PDFView silently ignores
         // go(to:) calls made before its document property is populated.
         if let doc = page.document, uiView.document !== doc {
+            print("🖼 PDFPageView: setting document (\(doc.pageCount) pages)")
             uiView.document = doc
         }
         if uiView.currentPage != page {
+            let pageIndex = page.document?.index(for: page) ?? -1
+            print("🖼 PDFPageView: rendering page \(pageIndex + 1)")
             uiView.go(to: page)
         }
     }

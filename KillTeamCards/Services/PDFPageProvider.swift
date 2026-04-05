@@ -20,14 +20,16 @@ class PDFPageProvider {
 
     private func loadDocument(named filename: String) -> PDFDocument? {
         if let cached = cache[filename] {
+            print("📂 PDF cache hit: \(filename)")
             return cached
         }
-        // PDFs are bundled via a folder reference — they land at the bundle root inside PDFs/
         let url = Bundle.main.bundleURL.appendingPathComponent("PDFs/\(filename)")
+        print("📂 Opening PDF: \(filename)")
         guard let document = PDFDocument(url: url) else {
-            print("PDFPageProvider: could not open \(filename) at \(url.path)")
+            print("❌ PDF not found: \(filename) — expected at \(url.path)")
             return nil
         }
+        print("📂 PDF opened: \(filename) — \(document.pageCount) page(s)")
         evictIfNeeded()
         cache[filename] = document
         return document

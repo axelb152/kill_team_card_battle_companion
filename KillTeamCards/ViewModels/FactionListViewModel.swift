@@ -13,7 +13,9 @@ class FactionListViewModel: ObservableObject {
         do {
             let manifest = try ManifestLoader.load()
             factions = manifest.factions
+            print("🗂 FactionList ready — \(factions.count) tile(s) visible")
         } catch {
+            print("❌ FactionList load failed: \(error.localizedDescription)")
             loadError = error.localizedDescription
         }
     }
