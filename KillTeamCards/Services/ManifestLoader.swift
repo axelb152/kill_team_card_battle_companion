@@ -32,10 +32,10 @@ struct ManifestLoader {
 
     static func load() throws -> FactionManifest {
         print("📋 Loading faction-manifest.json from Documents…")
-        
+
         // 1. Ensure initial file exists in Documents
         try copyInitialManifestIfNeeded()
-        
+
         // 2. Load from Documents
         do {
             let data = try Data(contentsOf: documentsURL)
