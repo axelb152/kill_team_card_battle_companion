@@ -26,10 +26,14 @@ struct BattleModeView: View {
                     .opacity(viewModel.isChromeVisible ? 1 : 0)
                     .animation(.easeOut(duration: 0.4), value: viewModel.isChromeVisible)
 
-                // Phase 5: QuadrantOverlayView inserted here
+                if viewModel.isOverlayVisible {
+                    QuadrantOverlayView(pages: pages, viewModel: viewModel)
+                        .transition(.opacity)
+                }
             }
         }
         .ignoresSafeArea()
+        .animation(.easeInOut(duration: 0.2), value: viewModel.isOverlayVisible)
         .onTapGesture {
             viewModel.resetTimer()
         }

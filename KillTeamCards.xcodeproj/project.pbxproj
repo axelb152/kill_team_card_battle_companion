@@ -10,6 +10,7 @@
 		0FFF6F0B835A42AB6003A058 /* TeamSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */; };
 		20BA8DED548990227E606ED2 /* SelectedSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ABAAD55A55D9238F39BFBB /* SelectedSession.swift */; };
 		316ABE000710782623A644DF /* faction-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */; };
+		377EBD3E35BE86C274916D4A /* QuadrantOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1069DCA744F45ECB764C7B7 /* QuadrantOverlayView.swift */; };
 		38E93FC087B3F74A5FAF7308 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F74D921016CB9C13DEAE69A /* Faction.swift */; };
 		403041A38C076D17D466A465 /* BattleModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC174512EC69ACAA9CE8397 /* BattleModeView.swift */; };
 		406C6F07B7398655B15CEB8F /* ManifestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E9C95357246F97BBE7028 /* ManifestLoader.swift */; };
@@ -49,6 +50,7 @@
 		D274238A9FBD434D3B58A7DB /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
 		D62E9C95357246F97BBE7028 /* ManifestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestLoader.swift; sourceTree = "<group>"; };
 		D9ABAAD55A55D9238F39BFBB /* SelectedSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedSession.swift; sourceTree = "<group>"; };
+		F1069DCA744F45ECB764C7B7 /* QuadrantOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrantOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -68,6 +70,7 @@
 				CDC174512EC69ACAA9CE8397 /* BattleModeView.swift */,
 				9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */,
 				39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */,
+				F1069DCA744F45ECB764C7B7 /* QuadrantOverlayView.swift */,
 				9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */,
 			);
 			path = Views;
@@ -229,6 +232,7 @@
 				7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */,
 				630585CA6F06C1EDF11C2F4F /* PDFPageProvider.swift in Sources */,
 				FDF6CACABCEF85D2EF2A2D2C /* PDFPageView.swift in Sources */,
+				377EBD3E35BE86C274916D4A /* QuadrantOverlayView.swift in Sources */,
 				20BA8DED548990227E606ED2 /* SelectedSession.swift in Sources */,
 				0FFF6F0B835A42AB6003A058 /* TeamSelectionView.swift in Sources */,
 			);
