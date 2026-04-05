@@ -14,11 +14,12 @@ class OperativeListViewModel: ObservableObject {
         !selectedIds.isEmpty
     }
 
-    /// Sorted 1-based page numbers for selected operatives.
+    /// Sorted 1-based page numbers for all selected operatives.
+    /// Supports multi-page operatives by flatMapping the pages array.
     var selectedPages: [Int] {
         faction.operatives
             .filter { selectedIds.contains($0.id) }
-            .map(\.page)
+            .flatMap(\.pages)
             .sorted()
     }
 

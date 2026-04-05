@@ -86,7 +86,7 @@ struct AboutView: View {
                         icon: "icloud.and.arrow.down",
                         iconColor: .white.opacity(0.6),
                         title: "How to Import PDFs",
-                        body: "1. Download the PDF for your faction from the link above.\n2. Return to the faction selection screen.\n3. Tap any tile marked "Tap to import PDF".\n4. Select your downloaded PDF from the Files picker.\n\nThe app saves it to its private Documents folder — no rebuild required."
+                        body: "1. Download the PDF for your faction from the link above.\n2. Return to the faction selection screen.\n3. Tap any tile marked \"Tap to import PDF\".\n4. Select your downloaded PDF from the Files picker.\n\nNote: Operative page numbers are pre-populated for many teams but may need verification. You can update these yourself in the faction-manifest.json file."
                     )
 
                     Divider().background(Color.white.opacity(0.1))
