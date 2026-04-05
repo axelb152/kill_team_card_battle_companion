@@ -23,10 +23,12 @@ targets:
           - Resources/PDFs
           - Resources/PDFs/**
           - Info.plist
-    resources:
-      - path: KillTeamCards/Resources/faction-manifest.json
+      # Folder reference — blue folder in Xcode; entire directory copied to bundle as PDFs/
       - path: KillTeamCards/Resources/PDFs
         type: folder
+        buildPhase: resources
+    resources:
+      - path: KillTeamCards/Resources/faction-manifest.json
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.killteamcards.app

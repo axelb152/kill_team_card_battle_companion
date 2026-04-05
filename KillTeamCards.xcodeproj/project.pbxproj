@@ -19,6 +19,7 @@
 		7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */; };
 		894467F776D16CCE667F7180 /* FactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7C8F6FBBBFF8FA138E961 /* FactionListViewModel.swift */; };
 		8FAA00B82B2EFC7AEDE3FDCA /* FactionTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */; };
+		B11E6BB14B738A6307FA2361 /* PDFs in Resources */ = {isa = PBXBuildFile; fileRef = 937D4E93CC42755119432395 /* PDFs */; };
 		BD227D0C8532D28203F7656E /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D274238A9FBD434D3B58A7DB /* Manifest.swift */; };
 		C00DECB18FDBD3669E268D3A /* OperativeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */; };
 		C560A2ECBD8791C7603E785F /* OperativeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CBEE7635692EE120FFAD9 /* OperativeListViewModel.swift */; };
@@ -37,6 +38,7 @@
 		6F9FC313E5595C57FD7FA8CE /* BattleModeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleModeViewModel.swift; sourceTree = "<group>"; };
 		859858933FEEF2504D681B54 /* PDFPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageView.swift; sourceTree = "<group>"; };
 		9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionView.swift; sourceTree = "<group>"; };
+		937D4E93CC42755119432395 /* PDFs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PDFs; path = KillTeamCards/Resources/PDFs; sourceTree = SOURCE_ROOT; };
 		9A441361459F9F60D990D75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionTileView.swift; sourceTree = "<group>"; };
 		A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "faction-manifest.json"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */,
+				937D4E93CC42755119432395 /* PDFs */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5979A990144B34EDF43D6785 /* Assets.xcassets in Resources */,
+				B11E6BB14B738A6307FA2361 /* PDFs in Resources */,
 				316ABE000710782623A644DF /* faction-manifest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
