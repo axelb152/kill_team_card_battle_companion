@@ -6,7 +6,17 @@
       "pdfFile": "murderwing.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Murderwing Operative", "pages": [1] }
+        { "name": "Murderwing Chaos Lord", "pages": [2] },
+        { "name": "Murderwing Champion", "pages": [2] },
+        { "name": "Murderwing Curseclaw", "pages": [2] },
+        { "name": "Murderwing Depredator", "pages": [2] },
+        { "name": "Murderwing Huntmaster", "pages": [1] },
+        { "name": "Murderwing Raptor", "pages": [1] },
+        { "name": "Murderwing Possessed", "pages": [1] },
+        { "name": "Murderwing Raptor", "pages": [1] },
+        { "name": "Murderwing Shrieker", "pages": [2] },
+        { "name": "Murderwing Skysear", "pages": [1] },
+        { "name": "Murderwing Warp Talon", "pages": [1] }
       ]
     },
     {
