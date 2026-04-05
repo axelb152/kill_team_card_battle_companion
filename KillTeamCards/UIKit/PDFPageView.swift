@@ -16,7 +16,13 @@ struct PDFPageView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: PDFView, context: Context) {
-        guard uiView.currentPage != page else { return }
-        uiView.go(to: page)
+        // document must be set before go(to:) — PDFView silently ignores
+        // go(to:) calls made before its document property is populated.
+        if let doc = page.document, uiView.document !== doc {
+            uiView.document = doc
+        }
+        if uiView.currentPage != page {
+            uiView.go(to: page)
+        }
     }
 }

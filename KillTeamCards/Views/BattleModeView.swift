@@ -52,6 +52,7 @@ struct BattleModeView: View {
         TabView(selection: $viewModel.currentIndex) {
             ForEach(Array(pages.enumerated()), id: \.offset) { index, page in
                 PDFPageView(page: page)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .tag(index)
                     .ignoresSafeArea()
             }
