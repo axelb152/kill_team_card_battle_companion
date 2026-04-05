@@ -51,13 +51,21 @@ struct OperativeSelectionView: View {
             }
     }
 
+    private var editMode: Binding<EditMode> {
+        .constant(viewModel.isEditMode ? .active : .inactive)
+    }
+
     private var operativeList: some View {
         List {
             Section {
                 ForEach(viewModel.faction.operatives) { operative in
                     operativeRow(operative)
                 }
-                .onDelete(perform: viewModel.isEditMode ? viewModel.deleteOperative : nil)
+                .onDelete { offsets in
+                    if viewModel.isEditMode {
+                        viewModel.deleteOperative(at: offsets)
+                    }
+                }
             } footer: {
                 if viewModel.isEditMode {
                     Button(action: { isAddingNew = true }) {
@@ -71,7 +79,7 @@ struct OperativeSelectionView: View {
         }
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
-        .environment(\.editMode, .constant(viewModel.isEditMode ? .active : .inactive))
+        .environment(\.editMode, editMode)
     }
     
     private func operativeRow(_ operative: Operative) -> some View {

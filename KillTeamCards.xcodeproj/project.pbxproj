@@ -20,11 +20,14 @@
 		7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */; };
 		894467F776D16CCE667F7180 /* FactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7C8F6FBBBFF8FA138E961 /* FactionListViewModel.swift */; };
 		8FAA00B82B2EFC7AEDE3FDCA /* FactionTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */; };
+		90845AB388BF11FFDAEEE82B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C1BD40B4B22A6D9E3CEA6 /* AboutView.swift */; };
+		98503FBCF6E7F6AE7333BB6B /* PDFImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779124E46DAAAF670C14D81E /* PDFImportService.swift */; };
 		B11E6BB14B738A6307FA2361 /* PDFs in Resources */ = {isa = PBXBuildFile; fileRef = 937D4E93CC42755119432395 /* PDFs */; };
 		BD227D0C8532D28203F7656E /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D274238A9FBD434D3B58A7DB /* Manifest.swift */; };
 		C00DECB18FDBD3669E268D3A /* OperativeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */; };
 		C560A2ECBD8791C7603E785F /* OperativeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CBEE7635692EE120FFAD9 /* OperativeListViewModel.swift */; };
 		D0609F709310D4F2C41369AC /* KillTeamCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7331A0B9A8FF9F655C1C5A /* KillTeamCardsApp.swift */; };
+		EA4E5E697562A78D6CB1C906 /* EditOperativeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D3E82460A4767318E65D4 /* EditOperativeSheet.swift */; };
 		F43E53AF926362A81E128CA1 /* BattleModeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9FC313E5595C57FD7FA8CE /* BattleModeViewModel.swift */; };
 		FDF6CACABCEF85D2EF2A2D2C /* PDFPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859858933FEEF2504D681B54 /* PDFPageView.swift */; };
 /* End PBXBuildFile section */
@@ -32,16 +35,19 @@
 /* Begin PBXFileReference section */
 		0828FDB8919ECA64BF99B7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		168CBEE7635692EE120FFAD9 /* OperativeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperativeListViewModel.swift; sourceTree = "<group>"; };
+		1F8C1BD40B4B22A6D9E3CEA6 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		2F74D921016CB9C13DEAE69A /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
 		39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperativeSelectionView.swift; sourceTree = "<group>"; };
 		41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHelper.swift; sourceTree = "<group>"; };
 		572E00B235037B2512E2972D /* PDFPageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageProvider.swift; sourceTree = "<group>"; };
 		6F9FC313E5595C57FD7FA8CE /* BattleModeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleModeViewModel.swift; sourceTree = "<group>"; };
+		779124E46DAAAF670C14D81E /* PDFImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImportService.swift; sourceTree = "<group>"; };
 		859858933FEEF2504D681B54 /* PDFPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageView.swift; sourceTree = "<group>"; };
 		9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionView.swift; sourceTree = "<group>"; };
 		937D4E93CC42755119432395 /* PDFs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PDFs; path = KillTeamCards/Resources/PDFs; sourceTree = SOURCE_ROOT; };
 		9A441361459F9F60D990D75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionTileView.swift; sourceTree = "<group>"; };
+		A07D3E82460A4767318E65D4 /* EditOperativeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOperativeSheet.swift; sourceTree = "<group>"; };
 		A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "faction-manifest.json"; sourceTree = "<group>"; };
 		B78E974E194A7A9ADBF5A3A0 /* KillTeamCards.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KillTeamCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C7C8F6FBBBFF8FA138E961 /* FactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionListViewModel.swift; sourceTree = "<group>"; };
@@ -67,7 +73,9 @@
 		2D455FC114C94974C135877E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1F8C1BD40B4B22A6D9E3CEA6 /* AboutView.swift */,
 				CDC174512EC69ACAA9CE8397 /* BattleModeView.swift */,
+				A07D3E82460A4767318E65D4 /* EditOperativeSheet.swift */,
 				9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */,
 				39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */,
 				F1069DCA744F45ECB764C7B7 /* QuadrantOverlayView.swift */,
@@ -132,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D62E9C95357246F97BBE7028 /* ManifestLoader.swift */,
+				779124E46DAAAF670C14D81E /* PDFImportService.swift */,
 				572E00B235037B2512E2972D /* PDFPageProvider.swift */,
 			);
 			path = Services;
@@ -218,9 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90845AB388BF11FFDAEEE82B /* AboutView.swift in Sources */,
 				485849107C86A4F599D7C18C /* AppDelegate.swift in Sources */,
 				403041A38C076D17D466A465 /* BattleModeView.swift in Sources */,
 				F43E53AF926362A81E128CA1 /* BattleModeViewModel.swift in Sources */,
+				EA4E5E697562A78D6CB1C906 /* EditOperativeSheet.swift in Sources */,
 				38E93FC087B3F74A5FAF7308 /* Faction.swift in Sources */,
 				894467F776D16CCE667F7180 /* FactionListViewModel.swift in Sources */,
 				8FAA00B82B2EFC7AEDE3FDCA /* FactionTileView.swift in Sources */,
@@ -230,6 +241,7 @@
 				C560A2ECBD8791C7603E785F /* OperativeListViewModel.swift in Sources */,
 				C00DECB18FDBD3669E268D3A /* OperativeSelectionView.swift in Sources */,
 				7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */,
+				98503FBCF6E7F6AE7333BB6B /* PDFImportService.swift in Sources */,
 				630585CA6F06C1EDF11C2F4F /* PDFPageProvider.swift in Sources */,
 				FDF6CACABCEF85D2EF2A2D2C /* PDFPageView.swift in Sources */,
 				377EBD3E35BE86C274916D4A /* QuadrantOverlayView.swift in Sources */,
