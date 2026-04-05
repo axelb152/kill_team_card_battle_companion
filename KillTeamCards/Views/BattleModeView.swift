@@ -6,17 +6,17 @@ struct BattleModeView: View {
     @StateObject private var viewModel = BattleModeViewModel()
     @Environment(\.dismiss) private var dismiss
 
-    private var pages: [PDFPage] {
-        session.selectedPages.compactMap {
-            PDFPageProvider.shared.page(from: session.faction.pdfFile, pageNumber: $0)
-        }
-    }
+    // Resolved once on appear — never recomputed on every body pass.
+    @State private var resolvedPages: [PDFPage] = []
+    @State private var pagesLoaded = false
 
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
 
-            if pages.isEmpty {
+            if !pagesLoaded {
+                ProgressView().tint(.white)
+            } else if resolvedPages.isEmpty {
                 noPDFView
             } else {
                 cardPager
@@ -27,7 +27,7 @@ struct BattleModeView: View {
                     .animation(.easeOut(duration: 0.4), value: viewModel.isChromeVisible)
 
                 if viewModel.isOverlayVisible {
-                    QuadrantOverlayView(pages: pages, viewModel: viewModel)
+                    QuadrantOverlayView(pages: resolvedPages, viewModel: viewModel)
                         .transition(.opacity)
                 }
             }
@@ -38,13 +38,13 @@ struct BattleModeView: View {
             viewModel.resetTimer()
         }
         .onChange(of: viewModel.currentIndex) { newIndex in
-            print("📄 Card \(newIndex + 1)/\(pages.count)")
+            print("📄 Card \(newIndex + 1)/\(resolvedPages.count)")
             viewModel.resetTimer()
         }
         .onAppear {
-            print("⚔️ Battle Mode opened — \(session.faction.name), \(pages.count) card(s), pages: \(session.selectedPages)")
             OrientationHelper.lock(.landscape)
             viewModel.resetTimer()
+            resolvePages()
         }
         .onDisappear {
             print("🚪 Battle Mode closed")
@@ -53,11 +53,21 @@ struct BattleModeView: View {
         }
     }
 
+    // MARK: - Page resolution (runs once, main actor)
+
+    private func resolvePages() {
+        resolvedPages = session.selectedPages.compactMap {
+            PDFPageProvider.shared.page(from: session.faction.pdfFile, pageNumber: $0)
+        }
+        pagesLoaded = true
+        print("⚔️ Battle Mode opened — \(session.faction.name), \(resolvedPages.count) card(s), pages: \(session.selectedPages)")
+    }
+
     // MARK: - Card pager
 
     private var cardPager: some View {
         TabView(selection: $viewModel.currentIndex) {
-            ForEach(Array(pages.enumerated()), id: \.offset) { index, page in
+            ForEach(Array(resolvedPages.enumerated()), id: \.offset) { index, page in
                 PDFPageView(page: page)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .tag(index)
@@ -129,7 +139,7 @@ struct BattleModeView: View {
                 .padding(.top, 8)
         }
         .onAppear {
-            print("⚔️ Battle Mode (no PDF) — \(session.faction.pdfFile) not found in bundle")
+            print("❌ Battle Mode — \(session.faction.pdfFile) not found in bundle")
             OrientationHelper.lock(.landscape)
         }
         .onDisappear { OrientationHelper.lock(.portrait) }

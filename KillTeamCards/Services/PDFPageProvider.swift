@@ -20,7 +20,6 @@ class PDFPageProvider {
 
     private func loadDocument(named filename: String) -> PDFDocument? {
         if let cached = cache[filename] {
-            print("📂 PDF cache hit: \(filename)")
             return cached
         }
         let url = Bundle.main.bundleURL.appendingPathComponent("PDFs/\(filename)")
