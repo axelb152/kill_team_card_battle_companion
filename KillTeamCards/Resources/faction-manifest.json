@@ -1,0 +1,32 @@
+{
+  "factions": [
+    {
+      "id": "angels-of-death",
+      "name": "Angels of Death",
+      "pdfFile": "angels-of-death.pdf",
+      "operatives": [
+        { "name": "Assault Intercessor Sergeant", "page": 1 },
+        { "name": "Assault Intercessor", "page": 2 },
+        { "name": "Intercessor", "page": 3 },
+        { "name": "Intercessor Gunner", "page": 4 },
+        { "name": "Reiver", "page": 5 },
+        { "name": "Infiltrator", "page": 6 },
+        { "name": "Incursor", "page": 7 },
+        { "name": "Hellblaster", "page": 8 }
+      ]
+    },
+    {
+      "id": "veteran-guardsmen",
+      "name": "Veteran Guardsmen",
+      "pdfFile": "veteran-guardsmen.pdf",
+      "operatives": [
+        { "name": "Veteran Sergeant", "page": 1 },
+        { "name": "Veteran Trooper", "page": 2 },
+        { "name": "Veteran Gunner", "page": 3 },
+        { "name": "Veteran Weapons Team", "page": 4 },
+        { "name": "Veteran Medic", "page": 5 },
+        { "name": "Veteran Comms", "page": 6 }
+      ]
+    }
+  ]
+}
