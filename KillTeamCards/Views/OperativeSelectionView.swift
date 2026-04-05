@@ -25,12 +25,10 @@ struct OperativeSelectionView: View {
         .toolbarBackground(Color.black, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
         .fullScreenCover(isPresented: $showBattleMode) {
-            // Phase 4: BattleModeView goes here
-            Color.black.ignoresSafeArea()
-                .overlay(
-                    Button("Close") { showBattleMode = false }
-                        .foregroundColor(.white)
-                )
+            BattleModeView(session: SelectedSession(
+                faction: viewModel.faction,
+                selectedPages: viewModel.selectedPages
+            ))
         }
     }
 
