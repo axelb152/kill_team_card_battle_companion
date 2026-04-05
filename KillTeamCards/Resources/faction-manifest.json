@@ -219,8 +219,7 @@
         {
           "name": "Malignant Plaguecaster",
           "pages": [
-            2,
-            3
+            8
           ]
         },
         {
@@ -645,7 +644,7 @@
         {
           "name": "Navis C.A.T. Unit",
           "pages": [
-            12
+            2
           ]
         },
         {
@@ -1077,13 +1076,13 @@
         {
           "name": "Intercessor Gunner",
           "pages": [
-            8
+            9
           ]
         },
         {
           "name": "Intercessor Warrior",
           "pages": [
-            7
+            10
           ]
         },
         {
@@ -1638,7 +1637,7 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Yeagir Theyn",
+          "name": "Yaegir Theyn",
           "pages": [
             1
           ]
@@ -1668,9 +1667,9 @@
           ]
         },
         {
-          "name": "Yeaegir Riflekyn",
+          "name": "Yaegir Riflekyn",
           "pages": [
-            1
+            2
           ]
         },
         {
@@ -1898,13 +1897,13 @@
         {
           "name": "Kommando Nob",
           "pages": [
-            11
+            1
           ]
         },
         {
           "name": "Kommando Boy",
           "pages": [
-            1
+            2
           ]
         },
         {
@@ -2017,8 +2016,7 @@
         {
           "name": "Aquilon Operative",
           "pages": [
-            10,
-            11
+            1
           ]
         }
       ]
