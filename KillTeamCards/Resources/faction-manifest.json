@@ -1,48 +1,30 @@
 {
   "factions": [
     {
-      "id": "angels-of-death",
-      "name": "Angels of Death",
-      "pdfFile": "angels-of-death.pdf",
+      "id": "murderwing",
+      "name": "Murderwing",
+      "pdfFile": "murderwing.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Space Marine Captain", "pages": [1] },
-        { "name": "Assault Intercessor Sergeant", "pages": [2, 3] },
-        { "name": "Intercessor Sergeant", "pages": [4, 5] },
-        { "name": "Assault Intercessor Grenadier", "pages": [6] },
-        { "name": "Assault Intercessor Warrior", "pages": [7] },
-        { "name": "Heavy Intercessor Gunner", "pages": [8] },
-        { "name": "Intercessor Gunner", "pages": [9] },
-        { "name": "Intercessor Warrior", "pages": [10] },
-        { "name": "Eliminator Sniper", "pages": [11, 12] }
+        { "name": "Murderwing Operative", "pages": [1] }
       ]
     },
     {
-      "id": "veteran-guardsmen",
-      "name": "Death Korps (Veteran Guardsmen)",
-      "pdfFile": "death-korps.pdf",
+      "id": "wolf-scouts",
+      "name": "Wolf Scouts",
+      "pdfFile": "wolf-scouts.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Veteran Sergeant", "pages": [1] },
-        { "name": "Veteran Trooper", "pages": [2] },
-        { "name": "Veteran Gunner", "pages": [3] },
-        { "name": "Veteran Weapons Team", "pages": [4] },
-        { "name": "Veteran Medic", "pages": [5] },
-        { "name": "Veteran Comms", "pages": [6] }
+        { "name": "Wolf Scout Operative", "pages": [1] }
       ]
     },
     {
-      "id": "kommandos",
-      "name": "Kommandos",
-      "pdfFile": "kommandos.pdf",
+      "id": "battleclade",
+      "name": "Battleclade",
+      "pdfFile": "battleclade.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Kommando Nob", "pages": [1] },
-        { "name": "Kommando Boy", "pages": [2] },
-        { "name": "Kommando Grot", "pages": [3] },
-        { "name": "Kommando Slasha Boy", "pages": [4] },
-        { "name": "Kommando Snipa Boy", "pages": [5] },
-        { "name": "Kommando Dakka Boy", "pages": [6] }
+        { "name": "Battleclade Operative", "pages": [1] }
       ]
     },
     {
@@ -61,25 +43,60 @@
       ]
     },
     {
-      "id": "pathfinders",
-      "name": "Pathfinders",
-      "pdfFile": "pathfinders.pdf",
+      "id": "hierotek-circle",
+      "name": "Hierotek Circle",
+      "pdfFile": "hierotek-circle.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Shas'ui Pathfinder", "pages": [1] },
-        { "name": "Pathfinder Weapons Expert", "pages": [2] },
-        { "name": "MB3 Recon Drone", "pages": [3] },
-        { "name": "Pulse Accelerator Drone", "pages": [4] }
+        { "name": "Deathmark", "pages": [1] },
+        { "name": "Immortal Guardian", "pages": [2] }
       ]
     },
     {
-      "id": "vespid-stingwings",
-      "name": "Vespid Stingwings",
-      "pdfFile": "vespid-stingwings.pdf",
+      "id": "sanctifiers",
+      "name": "Sanctifiers",
+      "pdfFile": "sanctifiers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Vespid Strain Leader", "pages": [1] },
-        { "name": "Vespid Warrior", "pages": [2] }
+        { "name": "Sanctifier Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "inquisitorial-agents",
+      "name": "Inquisitorial Agents",
+      "pdfFile": "inquisitorial-agents.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Inquisitor", "pages": [1] },
+        { "name": "Agent", "pages": [2] }
+      ]
+    },
+    {
+      "id": "brood-brothers",
+      "name": "Brood Brothers",
+      "pdfFile": "brood-brothers.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Magus", "pages": [1] },
+        { "name": "Brood Brother", "pages": [2] }
+      ]
+    },
+    {
+      "id": "xv26-stealth-battlesuits",
+      "name": "XV26 Stealth Battlesuits",
+      "pdfFile": "xv26-stealth-battlesuits.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Stealth Suit Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "canoptek-circle",
+      "name": "Canoptek Circle",
+      "pdfFile": "canoptek-circle.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Canoptek Operative", "pages": [1] }
       ]
     },
     {
@@ -93,6 +110,27 @@
       ]
     },
     {
+      "id": "exaction-squad",
+      "name": "Exaction Squad",
+      "pdfFile": "exaction-squad.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Exaction Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "pathfinders",
+      "name": "Pathfinders",
+      "pdfFile": "pathfinders.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Shas'ui Pathfinder", "pages": [1] },
+        { "name": "Pathfinder Weapons Expert", "pages": [2] },
+        { "name": "MB3 Recon Drone", "pages": [3] },
+        { "name": "Pulse Accelerator Drone", "pages": [4] }
+      ]
+    },
+    {
       "id": "hearthkyn-salvagers",
       "name": "Hearthkyn Salvagers",
       "pdfFile": "hearthkyn-salvagers.pdf",
@@ -103,53 +141,35 @@
       ]
     },
     {
-      "id": "hierotek-circle",
-      "name": "Hierotek Circle",
-      "pdfFile": "hierotek-circle.pdf",
+      "id": "imperial-navy-breachers",
+      "name": "Imperial Navy Breachers",
+      "pdfFile": "imperial-navy-breachers.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Deathmark", "pages": [1] },
-        { "name": "Immortal Guardian", "pages": [2] }
+        { "name": "Breacher Operative", "pages": [1] }
       ]
     },
     {
-      "id": "kasrkin",
-      "name": "Kasrkin",
-      "pdfFile": "kasrkin.pdf",
+      "id": "mandrakes",
+      "name": "Mandrakes",
+      "pdfFile": "mandrakes.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Kasrkin Sergeant", "pages": [1] },
-        { "name": "Kasrkin Gunner", "pages": [2] }
+        { "name": "Mandrake Operative", "pages": [1] }
       ]
     },
     {
-      "id": "phobos-strike-team",
-      "name": "Phobos Strike Team",
-      "pdfFile": "phobos-strike-team.pdf",
+      "id": "death-korps",
+      "name": "Death Korps",
+      "pdfFile": "death-korps.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Phobos Sergeant", "pages": [1] },
-        { "name": "Phobos Warrior", "pages": [2] }
-      ]
-    },
-    {
-      "id": "legionaries",
-      "name": "Legionaries",
-      "pdfFile": "legionaries.pdf",
-      "type": "Bespoke",
-      "operatives": [
-        { "name": "Legionary Chosen", "pages": [1] },
-        { "name": "Legionary Warrior", "pages": [2] }
-      ]
-    },
-    {
-      "id": "corsair-voidscarred",
-      "name": "Corsair Voidscarred",
-      "pdfFile": "corsair-voidscarred.pdf",
-      "type": "Bespoke",
-      "operatives": [
-        { "name": "Corsair Felarch", "pages": [1] },
-        { "name": "Corsair Warrior", "pages": [2] }
+        { "name": "Veteran Sergeant", "pages": [1] },
+        { "name": "Veteran Trooper", "pages": [2] },
+        { "name": "Veteran Gunner", "pages": [3] },
+        { "name": "Veteran Weapons Team", "pages": [4] },
+        { "name": "Veteran Medic", "pages": [5] },
+        { "name": "Veteran Comms", "pages": [6] }
       ]
     },
     {
@@ -173,13 +193,21 @@
       ]
     },
     {
-      "id": "inquisitorial-agents",
-      "name": "Inquisitorial Agents",
-      "pdfFile": "inquisitorial-agents.pdf",
+      "id": "deathwatch",
+      "name": "Deathwatch",
+      "pdfFile": "deathwatch.pdf",
+      "type": "Legacy",
+      "operatives": [
+        { "name": "Deathwatch Veteran", "pages": [1] }
+      ]
+    },
+    {
+      "id": "celestian-insidiants",
+      "name": "Celestian Insidiants",
+      "pdfFile": "celestian-insidiants.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Inquisitor", "pages": [1] },
-        { "name": "Agent", "pages": [2] }
+        { "name": "Celestian Operative", "pages": [1] }
       ]
     },
     {
@@ -193,13 +221,13 @@
       ]
     },
     {
-      "id": "brood-brothers",
-      "name": "Brood Brothers",
-      "pdfFile": "brood-brothers.pdf",
+      "id": "kasrkin",
+      "name": "Kasrkin",
+      "pdfFile": "kasrkin.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Magus", "pages": [1] },
-        { "name": "Brood Brother", "pages": [2] }
+        { "name": "Kasrkin Sergeant", "pages": [1] },
+        { "name": "Kasrkin Gunner", "pages": [2] }
       ]
     },
     {
@@ -213,12 +241,218 @@
       ]
     },
     {
-      "id": "deathwatch",
-      "name": "Deathwatch",
-      "pdfFile": "deathwatch.pdf",
-      "type": "Legacy",
+      "id": "corsair-voidscarred",
+      "name": "Corsair Voidscarred",
+      "pdfFile": "corsair-voidscarred.pdf",
+      "type": "Bespoke",
       "operatives": [
-        { "name": "Deathwatch Veteran", "pages": [1] }
+        { "name": "Corsair Felarch", "pages": [1] },
+        { "name": "Corsair Warrior", "pages": [2] }
+      ]
+    },
+    {
+      "id": "elucidian-starstriders",
+      "name": "Elucidian Starstriders",
+      "pdfFile": "elucidian-starstriders.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Starstrider Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "angels-of-death",
+      "name": "Angels of Death",
+      "pdfFile": "angels-of-death.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Space Marine Captain", "pages": [1] },
+        { "name": "Assault Intercessor Sergeant", "pages": [2, 3] },
+        { "name": "Intercessor Sergeant", "pages": [4, 5] },
+        { "name": "Assault Intercessor Grenadier", "pages": [6] },
+        { "name": "Assault Intercessor Warrior", "pages": [7] },
+        { "name": "Heavy Intercessor Gunner", "pages": [8] },
+        { "name": "Intercessor Gunner", "pages": [9] },
+        { "name": "Intercessor Warrior", "pages": [10] },
+        { "name": "Eliminator Sniper", "pages": [11, 12] }
+      ]
+    },
+    {
+      "id": "ratlings",
+      "name": "Ratlings",
+      "pdfFile": "ratlings.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Ratling Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "hand-of-the-archon",
+      "name": "Hand of the Archon",
+      "pdfFile": "hand-of-the-archon.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Hand Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "vespid-stingwings",
+      "name": "Vespid Stingwings",
+      "pdfFile": "vespid-stingwings.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Vespid Strain Leader", "pages": [1] },
+        { "name": "Vespid Warrior", "pages": [2] }
+      ]
+    },
+    {
+      "id": "blades-of-khaine",
+      "name": "Blades of Khaine",
+      "pdfFile": "blades-of-khaine.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Khaine Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "phobos-strike-team",
+      "name": "Phobos Strike Team",
+      "pdfFile": "phobos-strike-team.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Phobos Sergeant", "pages": [1] },
+        { "name": "Phobos Warrior", "pages": [2] }
+      ]
+    },
+    {
+      "id": "novitiates",
+      "name": "Novitiates",
+      "pdfFile": "novitiates.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Novitiate Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "wrecka-krew",
+      "name": "Wrecka Krew",
+      "pdfFile": "wrecka-krew.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Wrecka Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "wyrmblade",
+      "name": "Wyrmblade",
+      "pdfFile": "wyrmblade.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Wyrmblade Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "void-dancer-troupe",
+      "name": "Void-Dancer Troupe",
+      "pdfFile": "void-dancer-troupe.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Dancer Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "gellerpox-infected",
+      "name": "Gellerpox Infected",
+      "pdfFile": "gellerpox-infected.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Gellerpox Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "hernkyn-yaegirs",
+      "name": "Hernkyn Yaegirs",
+      "pdfFile": "hernkyn-yaegirs.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Yaegir Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "legionaries",
+      "name": "Legionaries",
+      "pdfFile": "legionaries.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Legionary Chosen", "pages": [1] },
+        { "name": "Legionary Warrior", "pages": [2] }
+      ]
+    },
+    {
+      "id": "chaos-cult",
+      "name": "Chaos Cult",
+      "pdfFile": "chaos-cult.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Cultist Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "raveners",
+      "name": "Raveners",
+      "pdfFile": "raveners.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Ravener Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "blooded",
+      "name": "Blooded",
+      "pdfFile": "blooded.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Blooded Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "kommandos",
+      "name": "Kommandos",
+      "pdfFile": "kommandos.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Kommando Nob", "pages": [1] },
+        { "name": "Kommando Boy", "pages": [2] },
+        { "name": "Kommando Grot", "pages": [3] },
+        { "name": "Kommando Slasha Boy", "pages": [4] },
+        { "name": "Kommando Snipa Boy", "pages": [5] },
+        { "name": "Kommando Dakka Boy", "pages": [6] }
+      ]
+    },
+    {
+      "id": "fellgor-ravagers",
+      "name": "Fellgor Ravagers",
+      "pdfFile": "fellgor-ravagers.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Ravager Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "tempestus-aquilons",
+      "name": "Tempestus Aquilons",
+      "pdfFile": "tempestus-aquilons.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Aquilon Operative", "pages": [1] }
+      ]
+    },
+    {
+      "id": "goremongers",
+      "name": "Goremongers",
+      "pdfFile": "goremongers.pdf",
+      "type": "Bespoke",
+      "operatives": [
+        { "name": "Goremonger Operative", "pages": [1] }
       ]
     }
   ]
