@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FFF6F0B835A42AB6003A058 /* TeamSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */; };
 		20BA8DED548990227E606ED2 /* SelectedSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ABAAD55A55D9238F39BFBB /* SelectedSession.swift */; };
 		316ABE000710782623A644DF /* faction-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */; };
 		38E93FC087B3F74A5FAF7308 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F74D921016CB9C13DEAE69A /* Faction.swift */; };
@@ -14,17 +15,26 @@
 		485849107C86A4F599D7C18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A441361459F9F60D990D75F /* AppDelegate.swift */; };
 		5979A990144B34EDF43D6785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0828FDB8919ECA64BF99B7AE /* Assets.xcassets */; };
 		7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */; };
+		894467F776D16CCE667F7180 /* FactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7C8F6FBBBFF8FA138E961 /* FactionListViewModel.swift */; };
+		8FAA00B82B2EFC7AEDE3FDCA /* FactionTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */; };
 		BD227D0C8532D28203F7656E /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D274238A9FBD434D3B58A7DB /* Manifest.swift */; };
+		C00DECB18FDBD3669E268D3A /* OperativeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */; };
+		C560A2ECBD8791C7603E785F /* OperativeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168CBEE7635692EE120FFAD9 /* OperativeListViewModel.swift */; };
 		D0609F709310D4F2C41369AC /* KillTeamCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7331A0B9A8FF9F655C1C5A /* KillTeamCardsApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0828FDB8919ECA64BF99B7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168CBEE7635692EE120FFAD9 /* OperativeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperativeListViewModel.swift; sourceTree = "<group>"; };
 		2F74D921016CB9C13DEAE69A /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
+		39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperativeSelectionView.swift; sourceTree = "<group>"; };
 		41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHelper.swift; sourceTree = "<group>"; };
+		9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionView.swift; sourceTree = "<group>"; };
 		9A441361459F9F60D990D75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionTileView.swift; sourceTree = "<group>"; };
 		A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "faction-manifest.json"; sourceTree = "<group>"; };
 		B78E974E194A7A9ADBF5A3A0 /* KillTeamCards.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KillTeamCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C7C8F6FBBBFF8FA138E961 /* FactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionListViewModel.swift; sourceTree = "<group>"; };
 		CD7331A0B9A8FF9F655C1C5A /* KillTeamCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillTeamCardsApp.swift; sourceTree = "<group>"; };
 		D274238A9FBD434D3B58A7DB /* Manifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifest.swift; sourceTree = "<group>"; };
 		D62E9C95357246F97BBE7028 /* ManifestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestLoader.swift; sourceTree = "<group>"; };
@@ -32,6 +42,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0460D99922AE97ABD6C2F899 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C5C7C8F6FBBBFF8FA138E961 /* FactionListViewModel.swift */,
+				168CBEE7635692EE120FFAD9 /* OperativeListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D455FC114C94974C135877E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D4F909C84C54700FBBC1E0D /* FactionTileView.swift */,
+				39A2246EF37DB8CA94E480B0 /* OperativeSelectionView.swift */,
+				9037B31D3B7568BBE78F908B /* TeamSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4C745CB810F7877913F62418 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +105,8 @@
 				4C745CB810F7877913F62418 /* Resources */,
 				D5C42D5F7A722D81EF104392 /* Services */,
 				6D136BCA94786A320D7D1C3F /* UIKit */,
+				0460D99922AE97ABD6C2F899 /* ViewModels */,
+				2D455FC114C94974C135877E /* Views */,
 			);
 			path = KillTeamCards;
 			sourceTree = "<group>";
@@ -170,11 +201,16 @@
 			files = (
 				485849107C86A4F599D7C18C /* AppDelegate.swift in Sources */,
 				38E93FC087B3F74A5FAF7308 /* Faction.swift in Sources */,
+				894467F776D16CCE667F7180 /* FactionListViewModel.swift in Sources */,
+				8FAA00B82B2EFC7AEDE3FDCA /* FactionTileView.swift in Sources */,
 				D0609F709310D4F2C41369AC /* KillTeamCardsApp.swift in Sources */,
 				BD227D0C8532D28203F7656E /* Manifest.swift in Sources */,
 				406C6F07B7398655B15CEB8F /* ManifestLoader.swift in Sources */,
+				C560A2ECBD8791C7603E785F /* OperativeListViewModel.swift in Sources */,
+				C00DECB18FDBD3669E268D3A /* OperativeSelectionView.swift in Sources */,
 				7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */,
 				20BA8DED548990227E606ED2 /* SelectedSession.swift in Sources */,
+				0FFF6F0B835A42AB6003A058 /* TeamSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
