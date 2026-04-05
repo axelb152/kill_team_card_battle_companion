@@ -5,14 +5,18 @@
       "name": "Angels of Death",
       "pdfFile": "angels-of-death.pdf",
       "operatives": [
-        { "name": "Assault Intercessor Sergeant", "page": 1 },
-        { "name": "Assault Intercessor", "page": 2 },
-        { "name": "Intercessor", "page": 3 },
-        { "name": "Intercessor Gunner", "page": 4 },
-        { "name": "Reiver", "page": 5 },
-        { "name": "Infiltrator", "page": 6 },
-        { "name": "Incursor", "page": 7 },
-        { "name": "Hellblaster", "page": 8 }
+          { "name": "Space Marine Captain", "page": 1 },
+          { "name": "Assault Intercessor Sergeant", "page": 2 },
+          { "name": "Assault Intercessor Sergeant (back)", "page": 3 },
+          { "name": "Intercessor Sergeant", "page": 4 },
+          { "name": "Intercessor Sergeant (back)", "page": 5 },
+          { "name": "Assault Intercessor Grenadier", "page": 6 },
+          { "name": "Assault Intercessor Warrior", "page": 7 },
+          { "name": "Heavy Intercessor Gunner", "page": 8 },
+          { "name": "Intercessor Gunner", "page": 9 },
+          { "name": "Intercessor Warrior", "page": 10 },
+          { "name": "Eliminator Sniper", "page": 11 },
+          { "name": "Eliminator Sniper (back)", "page": 12 }
       ]
     },
     {
