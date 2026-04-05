@@ -11,7 +11,9 @@
 		316ABE000710782623A644DF /* faction-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */; };
 		38E93FC087B3F74A5FAF7308 /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F74D921016CB9C13DEAE69A /* Faction.swift */; };
 		406C6F07B7398655B15CEB8F /* ManifestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E9C95357246F97BBE7028 /* ManifestLoader.swift */; };
+		485849107C86A4F599D7C18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A441361459F9F60D990D75F /* AppDelegate.swift */; };
 		5979A990144B34EDF43D6785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0828FDB8919ECA64BF99B7AE /* Assets.xcassets */; };
+		7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */; };
 		BD227D0C8532D28203F7656E /* Manifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D274238A9FBD434D3B58A7DB /* Manifest.swift */; };
 		D0609F709310D4F2C41369AC /* KillTeamCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7331A0B9A8FF9F655C1C5A /* KillTeamCardsApp.swift */; };
 /* End PBXBuildFile section */
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		0828FDB8919ECA64BF99B7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F74D921016CB9C13DEAE69A /* Faction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
+		41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHelper.swift; sourceTree = "<group>"; };
+		9A441361459F9F60D990D75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C8097E01BDF0FE4E621BC3 /* faction-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "faction-manifest.json"; sourceTree = "<group>"; };
 		B78E974E194A7A9ADBF5A3A0 /* KillTeamCards.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KillTeamCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7331A0B9A8FF9F655C1C5A /* KillTeamCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillTeamCardsApp.swift; sourceTree = "<group>"; };
@@ -46,6 +50,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		6D136BCA94786A320D7D1C3F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				41DB90E14BD73F35533B6BAD /* OrientationHelper.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		A8D04734B1DEE340111F7F6E = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +69,13 @@
 		B9F0FB51D7B96A807CF559CD /* KillTeamCards */ = {
 			isa = PBXGroup;
 			children = (
+				9A441361459F9F60D990D75F /* AppDelegate.swift */,
 				0828FDB8919ECA64BF99B7AE /* Assets.xcassets */,
 				CD7331A0B9A8FF9F655C1C5A /* KillTeamCardsApp.swift */,
 				66CC0E78B38DAEC26E646B12 /* Models */,
 				4C745CB810F7877913F62418 /* Resources */,
 				D5C42D5F7A722D81EF104392 /* Services */,
+				6D136BCA94786A320D7D1C3F /* UIKit */,
 			);
 			path = KillTeamCards;
 			sourceTree = "<group>";
@@ -154,10 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485849107C86A4F599D7C18C /* AppDelegate.swift in Sources */,
 				38E93FC087B3F74A5FAF7308 /* Faction.swift in Sources */,
 				D0609F709310D4F2C41369AC /* KillTeamCardsApp.swift in Sources */,
 				BD227D0C8532D28203F7656E /* Manifest.swift in Sources */,
 				406C6F07B7398655B15CEB8F /* ManifestLoader.swift in Sources */,
+				7921BB055BC1858B373B0F28 /* OrientationHelper.swift in Sources */,
 				20BA8DED548990227E606ED2 /* SelectedSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
