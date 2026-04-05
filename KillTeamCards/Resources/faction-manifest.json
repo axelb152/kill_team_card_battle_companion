@@ -31,7 +31,13 @@
       "pdfFile": "battleclade.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Battleclade Operative", "pages": [1] }
+        { "name": "Battleclade Technoarcheologist", "pages": [1] },
+        { "name": "Battleclade Auto-Proxy Servitor", "pages": [1] },
+        { "name": "Battleclade Breacher Servitor", "pages": [1] },
+        { "name": "Battleclade Combat Servitor", "pages": [1] },
+        { "name": "Battleclade Gun Servitor", "pages": [1] },
+        { "name": "Battleclade Servitor Underseer", "pages": [2] },
+        { "name": "Battleclade Technomendic Servitor", "pages": [2] }
       ]
     },
     {
