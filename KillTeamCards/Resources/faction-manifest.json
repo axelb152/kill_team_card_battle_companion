@@ -15,7 +15,14 @@
       "pdfFile": "wolf-scouts.pdf",
       "type": "Bespoke",
       "operatives": [
-        { "name": "Wolf Scout Operative", "pages": [1] }
+        { "name": "Wolf Scout Pack Leader", "pages": [1] },
+        { "name": "Wolf Scout Fangbearer", "pages": [1] },
+        { "name": "Wolf Scout Frosteye", "pages": [2] },
+        { "name": "Wolf Scout Gunner", "pages": [1] },
+        { "name": "Wolf Scout Hunter", "pages": [1] },
+        { "name": "Wolf Scout Rune Priest Skjald", "pages": [2] },
+        { "name": "Wolf Scout Trapmaster", "pages": [2] },
+        { "name": "Wolf Scout Fenrisian Wolf", "pages": [1] }
       ]
     },
     {
