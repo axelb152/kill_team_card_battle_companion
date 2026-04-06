@@ -184,7 +184,7 @@
       "id": "plague-marines",
       "name": "Plague Marines",
       "pdfFile": "plague-marines.pdf",
-      "type": "Legacy",
+      "type": "Compendium",
       "operatives": [
         {
           "name": "Plague Marine Champion",
@@ -823,7 +823,7 @@
       "id": "deathwatch",
       "name": "Deathwatch",
       "pdfFile": "deathwatch.pdf",
-      "type": "Legacy",
+      "type": "Bespoke",
       "operatives": [
         {
           "name": "Deathwatch Veteran",
