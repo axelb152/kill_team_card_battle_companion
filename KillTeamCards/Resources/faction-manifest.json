@@ -319,15 +319,99 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Inquisitor",
+          "name": "Interrogator Agent",
           "pages": [
             1
           ]
         },
         {
-          "name": "Agent",
+          "name": "Tome-Skull",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Autosavant Agent",
           "pages": [
             2
+          ]
+        },
+        {
+          "name": "Death World Veteran Agent",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Enlightener Agent",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Hexorcist Agent",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Mystic Agent",
+          "pages": [
+            2, 3
+          ]
+        },
+        {
+          "name": "Penal Legionnaire Agent",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Pistolier Agent",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Questkeeper Agent",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Requisitioned Gun Servitor",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Sister of Silence Prosecutor",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Sister of Silence Witchseeker",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Tempestus Scion Gunner",
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Tempestus Scion Trooper",
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Tempestus Scion Vox-Operator",
+          "pages": [
+            6
           ]
         }
       ]
