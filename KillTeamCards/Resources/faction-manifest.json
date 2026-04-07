@@ -219,7 +219,7 @@
         {
           "name": "Malignant Plaguecaster",
           "pages": [
-            8
+            2
           ]
         },
         {
@@ -239,7 +239,6 @@
         {
           "name": "Deathmark",
           "pages": [
-            3,
             4
           ]
         },
@@ -276,9 +275,9 @@
           ]
         },
         {
-          "name": "Sanctifier Cult Assassin",
+          "name": "Sanctifier Death Cult Assassin",
           "pages": [
-            1
+            2
           ]
         },
         {
@@ -372,54 +371,51 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Shas'Vre",
-          "pages": [
-            4
-          ]
-        },
-        {
-          "name": "Designator",
+          "name": "XV26 Shas'Vre",
           "pages": [
             1
           ]
         },
         {
-          "name": "Infiltrator",
+          "name": "XV26 Designator",
           "pages": [
             1
           ]
         },
         {
-          "name": "Liberator",
+          "name": "XV26 Infiltrator",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "XV26 Liberator",
           "pages": [
             2
           ]
         },
         {
-          "name": "Lodestar",
+          "name": "XV26 Lodestar",
           "pages": [
             2
           ]
         },
         {
-          "name": "Neutraliser",
+          "name": "XV26 Neutraliser",
           "pages": [
-            2,
-            3,
-            4
+            2
           ]
         },
         {
           "name": "MV15 Gun Drone",
           "pages": [
-            3,
-            4
+            3
           ]
         },
         {
-          "name": "MV76 Marker Drone",
+          "name": "MV75 Marker Drone",
           "pages": [
-            1
+            3
           ]
         }
       ]
@@ -439,8 +435,7 @@
         {
           "name": "Canoptek Macrocyte Accelerator",
           "pages": [
-            1,
-            2
+            1
           ]
         },
         {
@@ -452,8 +447,7 @@
         {
           "name": "Canoptek Macrocyte Warrior",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
@@ -471,7 +465,7 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Night Lord Chosen",
+          "name": "Night Lord Visionary",
           "pages": [
             1
           ]
@@ -577,9 +571,9 @@
           ]
         },
         {
-          "name": "Pathfinder Weapons Expert",
+          "name": "Weapons Expert Pathfinder",
           "pages": [
-            2
+            3
           ]
         },
         {
@@ -589,10 +583,9 @@
           ]
         },
         {
-          "name": "Pulse Accelerator Drone",
+          "name": "MV31 Pulse Accelerator Drone",
           "pages": [
-            5,
-            6
+            5
           ]
         }
       ]
@@ -840,54 +833,51 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Superior",
+          "name": "Insidiant Superior",
           "pages": [
             1
           ]
         },
         {
-          "name": "Abjuror",
+          "name": "Insidiant Abjuror",
           "pages": [
             1
           ]
         },
         {
-          "name": "Censor",
+          "name": "Insidiant Censor",
           "pages": [
             2
           ]
         },
         {
-          "name": "Cremator",
+          "name": "Insidiant Cremator",
           "pages": [
             2
           ]
         },
         {
-          "name": "Denuncia",
+          "name": "Insidiant Denuncia",
           "pages": [
             2
           ]
         },
         {
-          "name": "Mortisanctus",
+          "name": "Insidiant Mortisanctus",
           "pages": [
-            3,
-            4
+            3
           ]
         },
         {
-          "name": "Reliquarius",
+          "name": "Insidiant Reliquarius",
           "pages": [
-            3,
-            4
+            3
           ]
         },
         {
-          "name": "Warrior",
+          "name": "Insidiant Warrior",
           "pages": [
-            3,
-            4
+            3
           ]
         }
       ]
@@ -941,16 +931,13 @@
         {
           "name": "Sorcerer",
           "pages": [
-            1,
-            2,
-            3
+            1
           ]
         },
         {
           "name": "Rubric Marine",
           "pages": [
-            2,
-            3
+            2
           ]
         }
       ]
@@ -962,15 +949,15 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Corsair Felarch",
+          "name": "Voidscarred Felarch",
           "pages": [
             1
           ]
         },
         {
-          "name": "Corsair Warrior",
+          "name": "Voidscarred Warrior",
           "pages": [
-            2
+            3
           ]
         }
       ]
@@ -1002,8 +989,7 @@
         {
           "name": "Lectro-Maester",
           "pages": [
-            1,
-            2
+            1
           ]
         },
         {
@@ -1015,16 +1001,13 @@
         {
           "name": "Voidmaster",
           "pages": [
-            2,
-            3,
-            4
+            2
           ]
         },
         {
           "name": "Voidsman",
           "pages": [
-            3,
-            4
+            3
           ]
         }
       ]
@@ -1163,15 +1146,13 @@
         {
           "name": "Ogryn",
           "pages": [
-            1,
-            2
+            1
           ]
         },
         {
           "name": "Bullgryn",
           "pages": [
-            1,
-            2
+            1
           ]
         },
         {
@@ -1239,8 +1220,7 @@
         {
           "name": "Kabalite Skysplinter Assassin",
           "pages": [
-            3,
-            4
+            3
           ]
         }
       ]
@@ -1286,8 +1266,7 @@
         {
           "name": "Striking Scorpion Exarch",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
@@ -1299,15 +1278,13 @@
         {
           "name": "Howling Banshee Warrior",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
           "name": "Striking Scorpion Warrior",
           "pages": [
-            2,
-            3
+            2
           ]
         }
       ]
@@ -1439,22 +1416,19 @@
         {
           "name": "Breaka Boy Krusha",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
           "name": "Tankbusta Gunner",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
           "name": "Tankbusta Rokkiteer",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
@@ -1486,8 +1460,7 @@
         {
           "name": "Locus",
           "pages": [
-            1,
-            2
+            1
           ]
         },
         {
@@ -1517,9 +1490,7 @@
         {
           "name": "Sanctus Talon",
           "pages": [
-            3,
-            4,
-            5
+            3
           ]
         },
         {
@@ -1551,16 +1522,13 @@
         {
           "name": "Player",
           "pages": [
-            1,
-            2,
-            3
+            1
           ]
         },
         {
           "name": "Shadowseer",
           "pages": [
-            2,
-            3
+            2
           ]
         }
       ]
@@ -1596,9 +1564,9 @@
           ]
         },
         {
-          "name": "Gellerpox Mutant",
+          "name": "Mutant",
           "pages": [
-            1
+            2
           ]
         },
         {
@@ -1610,22 +1578,19 @@
         {
           "name": "Cursemite",
           "pages": [
-            3,
-            4
+            3
           ]
         },
         {
           "name": "Eyestinger Swarm",
           "pages": [
-            3,
-            4
+            3
           ]
         },
         {
           "name": "Sludge-Grub",
           "pages": [
-            3,
-            4
+            3
           ]
         }
       ]
@@ -1733,15 +1698,13 @@
         {
           "name": "Mindwitch",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
           "name": "Chaos Devotee",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
@@ -1895,7 +1858,7 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Kommando Nob",
+          "name": "Kommando Boss Nob",
           "pages": [
             1
           ]
@@ -1903,7 +1866,7 @@
         {
           "name": "Kommando Boy",
           "pages": [
-            2
+            1
           ]
         },
         {
@@ -1983,8 +1946,7 @@
         {
           "name": "Fellgor Shaman",
           "pages": [
-            2,
-            3
+            2
           ]
         },
         {
