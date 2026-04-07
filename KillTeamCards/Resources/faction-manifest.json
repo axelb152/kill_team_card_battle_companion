@@ -163,7 +163,8 @@
         {
           "name": "Battleclade Technomedic Servitor",
           "pages": [
-            2
+            2,
+            3
           ]
         }
       ]
@@ -333,7 +334,7 @@
         {
           "name": "Autosavant Agent",
           "pages": [
-            2
+            1
           ]
         },
         {
@@ -357,7 +358,7 @@
         {
           "name": "Mystic Agent",
           "pages": [
-            2, 3
+            2
           ]
         },
         {
@@ -429,9 +430,69 @@
           ]
         },
         {
-          "name": "Brood Brother",
+          "name": "Brood Brother Commander",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Brood Brother Agitator",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Brood Brother Gunner",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Brood Brother Iconward",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Brood Brother Knife Fighter",
           "pages": [
             2
+          ]
+        },
+        {
+          "name": "Brood Brother Medic",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Brood Brother Sapper",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Brood Brother Sniper",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Brood Brother Trooper",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Brood Brother Veteran",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Brood Brother Vox-Operator",
+          "pages": [
+            4
           ]
         }
       ]
@@ -807,39 +868,75 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Veteran Sergeant",
+          "name": "Death Korps Watchmaster",
           "pages": [
             1
           ]
         },
         {
-          "name": "Veteran Trooper",
+          "name": "Death Korps Bruiser",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Death Korps Confidant",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Death Korps Gunner",
           "pages": [
             2
           ]
         },
         {
-          "name": "Veteran Gunner",
+          "name": "Death Korps Medic",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Death Korps Sapper",
           "pages": [
             3
           ]
         },
         {
-          "name": "Veteran Weapons Team",
+          "name": "Death Korps Sniper",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Death Korps Spotter",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Death Korps Trooper",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Death Korps Veteran",
           "pages": [
             4
           ]
         },
         {
-          "name": "Veteran Medic",
+          "name": "Death Korps Vox-Operator",
           "pages": [
-            5
+            4
           ]
         },
         {
-          "name": "Veteran Comms",
+          "name": "Death Korps Zealot",
           "pages": [
-            6
+            4
           ]
         }
       ]
@@ -891,9 +988,69 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Deathwatch Veteran",
+          "name": "Deathwatch Watch Sergeant",
           "pages": [
             1
+          ]
+        },
+        {
+          "name": "Deathwatch Aegis Veteran",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Deathwatch Blademaster Veteran",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Deathwatch Bombard Veteran",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Deathwatch Breacher Veteran",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Deathwatch Demolisher Veteran",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Deathwatch Disruptor Veteran",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Deathwatch Gunner Veteran",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Deathwatch Headtaker Veteran",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Deathwatch Horde-Slayer Veteran",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Deathwatch Marksman Veteran",
+          "pages": [
+            3
           ]
         }
       ]
@@ -1001,15 +1158,63 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Sorcerer",
+          "name": "Sorcerer of Destiny",
           "pages": [
             1
           ]
         },
         {
-          "name": "Rubric Marine",
+          "name": "Sorcerer of Tempyrion",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Sorcerer of Warpfire",
           "pages": [
             2
+          ]
+        },
+        {
+          "name": "Rubric Marine Gunner",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Rubric Marine Icon Bearer",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Rubric Marine Warrior",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Tzaangor Champion",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Tzaangor Horn Bearer",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Tzaangor Icon Bearer",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Tzaangor Warrior",
+          "pages": [
+            4
           ]
         }
       ]
@@ -1368,15 +1573,81 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Phobos Sergeant",
+          "name": "Infiltrator Sergeant",
           "pages": [
             1
           ]
         },
         {
-          "name": "Phobos Warrior",
+          "name": "Infiltrator Commsman",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Infiltrator Helix Adept",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Infiltrator Saboteur",
           "pages": [
             2
+          ]
+        },
+        {
+          "name": "Infiltrator Veteran",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Infiltrator Voxbreaker",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Infiltrator Warrior",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Incursor Sergeant",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Incursor Marksman",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Incursor Minelayer",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Incursor Warrior",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Reiver Sergeant",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Reiver Warrior",
+          "pages": [
+            4
           ]
         }
       ]
@@ -2048,9 +2319,51 @@
       "type": "Bespoke",
       "operatives": [
         {
-          "name": "Aquilon Operative",
+          "name": "Aquilon Tempestor",
           "pages": [
             1
+          ]
+        },
+        {
+          "name": "Aquilon Grenadier",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Aquilon Gunfighter",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Aquilon Gunner",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Aquilon Marksman",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Aquilon Precursor",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Aquilon Servo-Sentry",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Aquilon Trooper",
+          "pages": [
+            3
           ]
         }
       ]
